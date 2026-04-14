@@ -1,0 +1,31 @@
+# Build artifacts
+build/
+android/app/build/
+ios/build/
+*.apk
+*.dill
+*.bin
+*.so
+*.a
+*.o
+*.pyc
+__pycache__/
+
+# Large files
+*.zip
+*.7z
+*.rar
+*.pptx
+*.csv
+*.json
+
+# Credentials
+.env
+
+# Project specific
+node_modules/
+.venv/
+.dart_tool/
+.gradle/
+.pub/
+.packages
