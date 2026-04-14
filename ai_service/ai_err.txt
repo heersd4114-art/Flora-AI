@@ -1,0 +1,518 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [23/Mar/2026 21:58:18] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 21:58:54] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 21:59:17] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 22:00:09] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 22:00:39] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 07:44:24] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 07:44:50] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 07:45:15] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [24/Mar/2026 11:34:01] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 11:34:35] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 11:35:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 11:40:46] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [24/Mar/2026 11:41:45] "POST /predict HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 256, in <module>
+    print(f"  Models: {' \u2192 '.join(MODEL_CHAIN)}")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 27: character maps to <undefined>
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 01:15:15] "GET / HTTP/1.1" 200 -
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 12, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 12, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 08:08:51] "POST /predict HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 08:41:11] "POST /predict HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+^CWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+2026-04-10 12:14:08.673196: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-10 12:14:10.954612: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-10 12:14:11.524584: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 6417.39it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 12:15:27] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:15:45] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:16:13] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:18:37] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:18:49] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:19:06] "POST /predict HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 12:22:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:26:32] "GET / HTTP/1.1" 200 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+^CWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 12:35:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:36:58] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:36:59] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:37:00] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:37:00] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:37:01] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:37:22] "GET /predict HTTP/1.1" 405 -
+127.0.0.1 - - [10/Apr/2026 12:37:24] "GET /predict HTTP/1.1" 405 -
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 12:42:31] "POST /predict HTTP/1.1" 200 -
+^CWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+2026-04-10 12:52:50.431234: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-10 12:52:58.951134: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-10 12:53:00.671081: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 4124.71it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 12:53:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:53:57] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:57:03] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 12:57:43] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 13:37:27] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Unable to create process using '"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe" app.py '
+Unable to create process using '"C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe" app.py '
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\plant_app\ai_service\app.py", line 8, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 4811.22it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 21:17:28] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:17:52] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:19:09] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:19:58] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:20:30] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  67%|######6   | 214/320 [00:00<00:00, 2090.06it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2027.33it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 21:34:30] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 5782.98it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 21:47:42] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:48:30] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:49:24] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [10/Apr/2026 21:49:54] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3968.32it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 21:56:49] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 8020.76it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [10/Apr/2026 22:05:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:01:50] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:02:42] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:03:34] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:04:16] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:05:48] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:06:17] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:06:36] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:11:12] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3467.14it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 01:28:54] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:29:07] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:29:18] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:29:38] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3617.82it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 01:36:29] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:36:49] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:37:07] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:38:04] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 4889.89it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 01:46:24] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 01:48:04] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  82%|########2 | 263/320 [00:00<00:00, 2616.50it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2540.90it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  85%|########5 | 273/320 [00:00<00:00, 2700.57it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2687.99it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3451.39it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 5851.94it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 02:05:56] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:06:25] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:07:40] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:07:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:08:10] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  94%|#########4| 302/320 [00:00<00:00, 3009.80it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3049.90it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 02:17:29] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:17:46] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  86%|########6 | 276/320 [00:00<00:00, 2756.07it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2809.42it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 02:20:29] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  87%|########6 | 278/320 [00:00<00:00, 2638.20it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2848.09it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 02:28:31] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:29:31] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:29:43] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:30:39] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  88%|########7 | 280/320 [00:00<00:00, 2786.98it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2748.66it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 02:35:38] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 02:36:16] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3777.26it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.43.241:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+^CLoading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 3773.61it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  80%|########  | 256/320 [00:00<00:00, 2494.75it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2558.90it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 12:08:03] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 12:09:53] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 12:38:54] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  61%|######    | 194/320 [00:00<00:00, 1827.37it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 1963.08it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+127.0.0.1 - - [11/Apr/2026 16:31:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 16:33:05] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 17:09:50] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 17:10:26] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/Apr/2026 17:11:54] "GET /predict HTTP/1.1" 405 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+^Cforrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  77%|#######6  | 245/320 [00:00<00:00, 2439.42it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2367.78it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.7.56:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+^CLoading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  71%|#######   | 226/320 [00:00<00:00, 2118.10it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 2257.80it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.7.56:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 4025.07it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.7.56:5001
+Press CTRL+C to quit
+127.0.0.1 - - [13/Apr/2026 12:00:40] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2026 12:01:59] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2026 12:02:35] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2026 12:03:09] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [13/Apr/2026 12:04:04] "POST /predict HTTP/1.1" 200 -
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFD3AADC203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD3CAD7374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD3D19CC91  Unknown               Unknown  Unknown
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 5669.65it/s]
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.241:5001
+Press CTRL+C to quit
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFC1135C203  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFC12057374  Unknown               Unknown  Unknown
+ntdll.dll          00007FFC1397CC91  Unknown               Unknown  Unknown
+^C

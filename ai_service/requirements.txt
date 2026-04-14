@@ -1,0 +1,8 @@
+flask
+flask-cors
+Pillow
+numpy
+tensorflow-cpu
+google-genai
+transformers
+torch

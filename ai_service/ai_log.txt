@@ -1,0 +1,479 @@
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini 2.5 Flash Vision API
+  API Key Loaded: False
+  URL: http://127.0.0.1:5001
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+  Models: gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
+  API Key Loaded: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+  Models: gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
+  API Key Loaded: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+  Models: gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
+  API Key Loaded: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+  Models: gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
+  API Key Loaded: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+  Models: gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
+  API Key Loaded: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Google Gemini (Multi-Model Fallback)
+  Models: gemini-2.5-flash -> gemini-2.0-flash -> gemini-1.5-flash
+  API Key Loaded: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] Custom Keras model loaded: C:\xampp\htdocs\plant_app\ai_service\custom_model.keras
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: True
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini Only
+  Gemini key loaded from .env: True
+  Keras enabled: False
+  ResNet enabled: False
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini Only
+  Gemini key loaded from .env: True
+  Keras enabled: False
+  ResNet enabled: False
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini Only
+  Gemini key loaded from .env: True
+  Keras enabled: False
+  ResNet enabled: False
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini Only
+  Gemini key loaded from .env: True
+  Keras enabled: False
+  ResNet enabled: False
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini Only
+  Gemini key loaded from .env: True
+  Keras enabled: False
+  ResNet enabled: False
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] Custom Keras model loaded: C:\xampp\htdocs\plant_app\ai_service\custom_model.keras
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: True
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: False (Removed Keras)
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off

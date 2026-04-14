@@ -1,0 +1,25 @@
+2026-04-10 12:10:28.900669: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-10 12:10:32.016225: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-10 12:10:32.687055: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[OK] Custom Keras model loaded: C:\xampp\htdocs\plant_app\ai_service\custom_model.keras
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|##########| 320/320 [00:00<00:00, 4773.65it/s]
+[OK] ResNet-50 fallback loaded
+
+=======================================================
+  Flora AI Service — running on port 5001
+  Engine: Gemini + Local fallback
+  Gemini key loaded from .env: True
+  Custom model loaded: True
+  ResNet available: True
+  URL: http://127.0.0.1:5001
+  CORS: Enabled (Mobile App Ready)
+=======================================================
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.16.17.10:5001
+Press CTRL+C to quit
