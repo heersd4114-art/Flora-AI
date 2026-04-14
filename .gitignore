@@ -1,0 +1,30 @@
+# Large files
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+
+# Project artifacts
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.gradle/
+build/
+bin/
+obj/
+*.log
+.DS_Store
+
+# Mobile specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+android/app/build/
+ios/Pods/
