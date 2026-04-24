@@ -1,7 +1,10 @@
 # Build artifacts
 build/
+bin/
+obj/
 android/app/build/
 ios/build/
+ios/Pods/
 *.apk
 *.dill
 *.bin
@@ -18,11 +21,14 @@ __pycache__/
 *.pptx
 *.csv
 *.h5
+*.exe
+*.msi
 
 # Logs
 ai_service/ai_log.txt
 ai_service/ai_err.txt
 training_log.txt
+*.log
 
 # Data & uploads
 uploads/
@@ -34,7 +40,16 @@ plant_app_data/
 # Project specific
 node_modules/
 .venv/
+venv/
+env/
 .dart_tool/
 .gradle/
 .pub/
+.pub-cache/
 .packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.DS_Store
+
+# Mobile specific
+android/app/build/
