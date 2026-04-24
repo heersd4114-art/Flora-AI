@@ -17,7 +17,16 @@ __pycache__/
 *.rar
 *.pptx
 *.csv
-*.json
+*.h5
+
+# Logs
+ai_service/ai_log.txt
+ai_service/ai_err.txt
+training_log.txt
+
+# Data & uploads
+uploads/
+plant_app_data/
 
 # Credentials
 .env

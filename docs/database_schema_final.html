@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant App Database Schema</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 28px;
+            border-bottom: 3px solid #27ae60;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #27ae60;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            border-left: 5px solid #27ae60;
+            padding-left: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            background: white;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #27ae60;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border: 1px solid #27ae60;
+        }
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f0f0f0;
+        }
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+                padding: 0;
+            }
+            h2 {
+                page-break-after: avoid;
+            }
+            table {
+                page-break-inside: avoid;
+                margin-bottom: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plant App Database Schema</h1>
+
+        <h2>1) users</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>user_id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>email</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null, Unique</td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>phone</td>
+                    <td>VARCHAR(10)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>role</td>
+                    <td>ENUM</td>
+                    <td>'admin', 'customer', 'delivery_partner'</td>
+                </tr>
+                <tr>
+                    <td>created_at</td>
+                    <td>TIMESTAMP</td>
+                    <td>Not Null, Default Current Timestamp</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>2) products</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>product_id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>ENUM</td>
+                    <td>'Pesticide', 'Fertilizer', 'Tool', 'Other'</td>
+                </tr>
+                <tr>
+                    <td>price</td>
+                    <td>DECIMAL(10,2)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>stock_quantity</td>
+                    <td>INT</td>
+                    <td>Not Null, Default 0</td>
+                </tr>
+                <tr>
+                    <td>created_at</td>
+                    <td>TIMESTAMP</td>
+                    <td>Not Null, Default Current Timestamp</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>3) diseases</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>disease_id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>symptoms</td>
+                    <td>TEXT</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>care_tips</td>
+                    <td>TEXT</td>
+                    <td>Not Null</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>4) disease_treatments</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>disease_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → diseases(disease_id)</td>
+                </tr>
+                <tr>
+                    <td>product_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → products(product_id)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>5) orders</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>order_id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>user_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → users(user_id)</td>
+                </tr>
+                <tr>
+                    <td>total_amount</td>
+                    <td>DECIMAL(10,2)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>status</td>
+                    <td>ENUM</td>
+                    <td>'Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'</td>
+                </tr>
+                <tr>
+                    <td>shipping_address</td>
+                    <td>TEXT</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>payment_method</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null, Default 'COD'</td>
+                </tr>
+                <tr>
+                    <td>created_at</td>
+                    <td>TIMESTAMP</td>
+                    <td>Not Null, Default Current Timestamp</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>6) order_items</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>order_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → orders(order_id)</td>
+                </tr>
+                <tr>
+                    <td>product_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → products(product_id)</td>
+                </tr>
+                <tr>
+                    <td>quantity</td>
+                    <td>INT</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>price_at_purchase</td>
+                    <td>DECIMAL(10,2)</td>
+                    <td>Not Null</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>7) plant_history</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>user_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → users(user_id)</td>
+                </tr>
+                <tr>
+                    <td>plant_name</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>disease_detected</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>scan_date</td>
+                    <td>TIMESTAMP</td>
+                    <td>Not Null, Default Current Timestamp</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>8) delivery_partners</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>partner_id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>contact_number</td>
+                    <td>VARCHAR(10)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>vehicle_type</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>status</td>
+                    <td>ENUM</td>
+                    <td>'Available', 'Busy', 'Offline'</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>9) shipments</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Constraints / Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>shipment_id</td>
+                    <td>INT</td>
+                    <td>Primary Key, Auto Increment</td>
+                </tr>
+                <tr>
+                    <td>order_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → orders(order_id)</td>
+                </tr>
+                <tr>
+                    <td>partner_id</td>
+                    <td>INT</td>
+                    <td>Not Null, Foreign Key → delivery_partners(partner_id)</td>
+                </tr>
+                <tr>
+                    <td>tracking_number</td>
+                    <td>VARCHAR(25)</td>
+                    <td>Not Null</td>
+                </tr>
+                <tr>
+                    <td>status</td>
+                    <td>ENUM</td>
+                    <td>'Pending', 'Picked Up', 'In Transit', 'Out for Delivery', 'Delivered', 'Returned'</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

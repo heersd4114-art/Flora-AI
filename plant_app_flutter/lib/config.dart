@@ -1,6 +1,6 @@
 ﻿class Config {
   // Primary local API (LAN)
-  static const String baseUrl = "http://172.16.7.56/plant_app/api";
+  static const String baseUrl = "http://192.168.29.241/plant_app/api";
 
   // Optional public API URL (recommended for using mobile data / different Wi-Fi)
   // Example: "https://your-domain.com/plant_app/api" or ngrok/cloudflare tunnel URL.
@@ -16,6 +16,7 @@
 
   static const String appName = "Flora AI";
 }
+
 
 
 

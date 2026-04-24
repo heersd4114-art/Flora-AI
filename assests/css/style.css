@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Full page background */
+.page-wrapper {
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.auth-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* Logo section */
+.brand {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brand img {
+    width: 70px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.brand h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Headings */
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form fields */
+.field {
+    margin-bottom: 15px;
+}
+
+.field label {
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.field input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.field input:focus {
+    outline: none;
+    border-color: #2e7d32;
+}
+
+/* Button */
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: #256528;
+}
+
+/* Messages */
+.message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+
+/* Footer */
+.footer-text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-text span {
+    color: #2e7d32;
+    font-weight: bold;
+    cursor: pointer;
+}
