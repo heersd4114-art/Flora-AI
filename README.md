@@ -74,7 +74,7 @@
 </td>
 <td width="50%">
 
-### 🛡️ Admin & Delivery Portal
+###  Admin & Delivery Portal
 - **Admin dashboard** with user, product, disease & order management
 - **Delivery partner system** with order assignment & tracking
 - **Plant & disease database** management (CRUD operations)
