@@ -184,7 +184,7 @@ plant_app/
 │   ├── partner_orders.php         # Delivery partner orders
 │   └── ...                        # 10 more endpoints
 │
-├── 🛡️ admin/                      # Admin web dashboard
+├──  admin/                      # Admin web dashboard
 │   ├── dashboard.php              # Admin overview panel
 │   ├── products.php               # Product management (CRUD)
 │   ├── diseases.php               # Disease database management
@@ -467,7 +467,7 @@ Flora AI uses a **normalized MySQL schema** with **12 interconnected tables**:
 | Role | Access | Capabilities |
 |:---:|:---|:---|
 | 🌱 **Customer** | Web + Mobile App | Scan plants, browse store, manage cart, place orders, view history |
-| 🛡️ **Admin** | Admin Dashboard | Full CRUD on users, products, diseases, plants, orders & delivery partners |
+|  **Admin** | Admin Dashboard | Full CRUD on users, products, diseases, plants, orders & delivery partners |
 | 🚚 **Delivery Partner** | Delivery Portal | View assigned orders, update shipment status, manage availability |
 
 ---
